@@ -912,7 +912,7 @@ f11b1b .overlay.light::after {
 }
 .row2 {
   color: #181717;
-  background-color: #fafafa;
+  background-color: #fff3f8;
 }
 .row3 {
   color: #252222;
@@ -981,7 +981,7 @@ f11b1b .overlay.light::after {
 #footer hr,
 #footer .borderedbox,
 #footer .linklist li {
-  border-color: rgba(197, 47, 47, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 #footer .faico a {
@@ -1003,7 +1003,7 @@ f11b1b .overlay.light::after {
   background-color: #0e76a8;
 }
 #footer .faicon-instagram:hover {
-  background-color: #ee006f;
+  background-color: #dd1a75;
 }
 #footer .faicon-vk:hover {
   background-color: #4e658e;
@@ -1014,11 +1014,11 @@ f11b1b .overlay.light::after {
   border-color: transparent;
 }
 #footer input {
-  color: #ffffff;
-  background-color: #f1efef;
+  color: #000000;
+  background-color: #ffffff;
 }
 #footer input:focus {
-  border-color: #74d3d3;
+  border-color: #b18080;
 }
 #footer button {
   color: #ffffff;
