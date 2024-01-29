@@ -1044,11 +1044,11 @@ f11b1b .overlay.light::after {
 #mainav li li:hover > a,
 #mainav .active .active > a {
   color: #ffffff;
-  background-color: #a87d64;
+  background-color: #b99e8d;
 }
 #mainav form select {
-  color: #2b2f32;
-  background-color: #c9bd8e;
+  color: #232425;
+  background-color: #fcfcfc;
   border-color: rgba(255, 255, 255, 0.2); /* #FFFFFF */
   font-family: chapaza;
 }
@@ -1207,7 +1207,7 @@ table a,
     display: block;
     float: none;
     width: auto;
-    margin: 0 0 50px 0;
+    margin: auto;
     padding: 0;
   }
 
@@ -1223,7 +1223,7 @@ table a,
 
   .sectiontitle,
   .testimonials article {
-    text-align: left;
+    text-align: center;
   }
   .testimonials article {
     max-width: none;
