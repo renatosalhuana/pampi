@@ -816,8 +816,8 @@ td {
 .faico a:hover {
 }
 
-.faicon-dribble:hover {
-  color: #ea4c89;
+.faicon-whatsapp:hover {
+  color: #55c240;
 }
 .faicon-facebook:hover {
   color: #3b5998;
@@ -919,7 +919,7 @@ f11b1b .overlay.light::after {
   background-color: #ffffff;
 }
 .row4 {
-  color: #ffffff;
+  color: #202020;
   background-color: #ccdd94;
 }
 .row5,
@@ -981,17 +981,17 @@ f11b1b .overlay.light::after {
 #footer hr,
 #footer .borderedbox,
 #footer .linklist li {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 248, 248, 0.1);
 }
 
 #footer .faico a {
-  background-color: #2b2f32;
+  background-color: #fffcfc;
 }
 #footer .faico a:hover {
   color: #ffffff;
 }
-#footer .faicon-dribble:hover {
-  background-color: #ea4c89;
+#footer .faicon-whatsapp:hover {
+  background-color: #56c947;
 }
 #footer .faicon-facebook:hover {
   background-color: #3b5998;
