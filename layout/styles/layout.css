@@ -1044,12 +1044,13 @@ f11b1b .overlay.light::after {
 #mainav li li:hover > a,
 #mainav .active .active > a {
   color: #ffffff;
-  background-color: #d37474;
+  background-color: #a87d64;
 }
 #mainav form select {
-  color: #ffffff;
-  background-color: #2b2f32;
+  color: #2b2f32;
+  background-color: #c9bd8e;
   border-color: rgba(255, 255, 255, 0.2); /* #FFFFFF */
+  font-family: chapaza;
 }
 
 #breadcrumb a {
