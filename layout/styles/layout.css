@@ -788,7 +788,7 @@ td {
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */
 .faico {
-  margin: 0;
+  margin: 10;
   padding: 0;
   list-style: none;
 }
@@ -816,8 +816,8 @@ td {
 .faico a:hover {
 }
 
-.faicon-dribble:hover {
-  color: #ea4c89;
+.faicon-whatsapp:hover {
+  color: #55c240;
 }
 .faicon-facebook:hover {
   color: #3b5998;
@@ -848,7 +848,7 @@ body {
   background-color: #ccdd94;
 }
 a {
-  color: #74d3d3;
+  color: #000000;
 }
 a:active,
 a:focus {
@@ -912,20 +912,20 @@ f11b1b .overlay.light::after {
 }
 .row2 {
   color: #181717;
-  background-color: #fafafa;
+  background-color: #fcf5f8;
 }
 .row3 {
   color: #252222;
   background-color: #ffffff;
 }
 .row4 {
-  color: #ffffff;
+  color: #202020;
   background-color: #ccdd94;
 }
 .row5,
 .row5 a {
-  color: #ffffff;
-  background-color: #dacba7;
+  color: #666666;
+  background-color: #fff4f4;
 }
 
 /* Header */
@@ -981,17 +981,17 @@ f11b1b .overlay.light::after {
 #footer hr,
 #footer .borderedbox,
 #footer .linklist li {
-  border-color: rgba(197, 47, 47, 0.1);
+  border-color: rgba(255, 248, 248, 0.1);
 }
 
 #footer .faico a {
-  background-color: #2b2f32;
+  background-color: #fffcfc;
 }
 #footer .faico a:hover {
   color: #ffffff;
 }
-#footer .faicon-dribble:hover {
-  background-color: #ea4c89;
+#footer .faicon-whatsapp:hover {
+  background-color: #56c947;
 }
 #footer .faicon-facebook:hover {
   background-color: #3b5998;
@@ -1003,7 +1003,7 @@ f11b1b .overlay.light::after {
   background-color: #0e76a8;
 }
 #footer .faicon-instagram:hover {
-  background-color: #ee006f;
+  background-color: #dd1a75;
 }
 #footer .faicon-vk:hover {
   background-color: #4e658e;
@@ -1014,11 +1014,11 @@ f11b1b .overlay.light::after {
   border-color: transparent;
 }
 #footer input {
-  color: #ffffff;
-  background-color: #f1efef;
+  color: #000000;
+  background-color: #ffffff;
 }
 #footer input:focus {
-  border-color: #74d3d3;
+  border-color: #b18080;
 }
 #footer button {
   color: #ffffff;
@@ -1044,12 +1044,13 @@ f11b1b .overlay.light::after {
 #mainav li li:hover > a,
 #mainav .active .active > a {
   color: #ffffff;
-  background-color: #d37474;
+  background-color: #b99e8d;
 }
 #mainav form select {
-  color: #ffffff;
-  background-color: #2b2f32;
+  color: #232425;
+  background-color: #fcfcfc;
   border-color: rgba(255, 255, 255, 0.2); /* #FFFFFF */
+  font-family: chapaza;
 }
 
 #breadcrumb a {
@@ -1206,7 +1207,7 @@ table a,
     display: block;
     float: none;
     width: auto;
-    margin: 0 0 50px 0;
+    margin: auto;
     padding: 0;
   }
 
@@ -1222,7 +1223,7 @@ table a,
 
   .sectiontitle,
   .testimonials article {
-    text-align: left;
+    text-align: center;
   }
   .testimonials article {
     max-width: none;
