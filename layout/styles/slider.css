@@ -45,6 +45,8 @@ li {
     height: inherit;
     transition: opacity .5s;
     background: #fff;
+    display: flex;
+    align-items: center;
 }
 
 #kiko-slider>ul.slider li img {
