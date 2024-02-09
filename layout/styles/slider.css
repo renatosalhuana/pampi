@@ -36,10 +36,10 @@
 .scroll-custom-dots a:hover {
   background-color: grey;
 }
-.active {
+/* .active {
   background-color: red;
   border-radius: 90%;
   display: inline-block;
   width: 10px;
   height: 10px;
-}
+} */
