@@ -6,8 +6,10 @@
   <title>MESAS&SILLAS ALTAS - PamPi Mobiliario </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
+  <script src="../layout/scripts/slider.js"></script>
   <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../layout/styles/slider.css" rel="stylesheet" type="text/css" media="all">
+
 </head>
 
 <body id="top">
@@ -48,7 +50,7 @@
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading" style="font-family: catchy; font-size: 30px;">MESAS</header>
+            <header class="heading" style="font-family: catchy; font-size: 30px;">MESAS y SILLAS ALTAS</header>
             <figcaption style="font-family: chapaza; font-size: 15px;">Ofrecemos una variedad de mesas modernas e ideales
                para todo tipo de celebraciones, desde eventos corporativos hasta bodas íntimas. 
                Nuestras barras son perfectas para añadir un toque de elegancia y estilo a cualquier ocasión 
@@ -56,57 +58,106 @@
             </figcaption>
             <br></br>
             <ul class="nospace clear">
-              <li class="one_quarter first"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/barra jardinera.png';" onmouseover="this.src='../images/barra jardinera hover.jpg';" src="../images/barra jardinera.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Jardinera </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter first">
+                <div class="scroll-container" id="scroll-sillas-contemporaneas">
+                <img src="../images/sillas contemporaneas.jpg" alt="Sillas Contemporaneas">
+                  <img src="../images/sillas contemporaneas.jpg" alt="Sillas Contemporaneas">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-contemporaneas')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-contemporaneas')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Contemporáneas</br>
+                  4 pax / 6 pax </br> desde S/100 + IGV
+                </p>
               </li>
-              <li class="one_quarter"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/barra acrilico.png';" onmouseover="this.src='../images/barra acrilico hover.jpg';" src="../images/barra acrilico.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra con Acrilico </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-sillas-metal1">
+                  <img src="../images/sillas metal 1 inspo.jpg" alt="Sillas Metal1">
+                  <img src="../images/sillas metal 1 inspo.jpg" alt="Sillas Metal1">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-metal1')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-metal1')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Metal 1 </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/4.png';" onmouseover="this.src='../images/09D3761B-F5AB-477A-8F59-8478F70D8A0A.jpg';" src="../images/4.png"
-                  alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Vintage </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-sillas-metal2">
+                  <img src="../images/sillas metal 2 inspo.jpg" alt="Sillas Metal2">
+                  <img src="../images/sillas metal 2 inspo.jpg" alt="Sillas Metal2">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-metal2')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-metal2')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Metal 2 </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra media luna.png"
-                    alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Media Luna </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-sillas-industrial">
+                  <img src="../images/sillas industrial es inspo.jpg" alt="Sillas industrial">
+                  <img src="../images/sillas industrial es inspo.jpg" alt="Sillas industrial">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-industrial')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-industrial')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Industriales </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter first"><a href="#"><img src="../images/barra circular.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Circular </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter first">
+                <div class="scroll-container" id="scroll-sillas-cuadradas">
+                  <img src="../images/sillas cuadradas inspo.jpg" alt="Sillas Cuadradas">
+                  <img src="../images/sillas cuadradas inspo.jpg" alt="Sillas Cuadradas">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-cuadradas')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-cuadradas')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Cuadradas </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra bambu.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Listones</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-sillas-vintage">
+                  <img src="../images/sillas vintage inspo.jpg" alt="Sillas Vintage">
+                  <img src="../images/sillas vintage inspo.jpg" alt="Sillas Vintage">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-vintage')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-vintage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Vintage </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra triangulos.jpg"></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Triangulos </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-sillas-boho">
+                  <img src="../images/sillas boho chic inspo.jpg" alt="Sillas Boho">
+                  <img src="../images/sillas boho chic inspo.jpg" alt="Sillas Boho">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-sillas-boho')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-sillas-boho')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Boho Chic </br>
+                  2 pax / 4 pax </br> desde S/100 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra listones.jpg"
-                    alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Bohem 1</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter first"><a href="#"><img src="../images/barra trio rectangular.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Museo</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra pastel.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Pastel </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra bohem.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Bohem 2</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra marcos.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Retrato </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
+
             </ul>
           </figure>
         </div>
