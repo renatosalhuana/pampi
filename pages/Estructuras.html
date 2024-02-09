@@ -6,8 +6,9 @@
   <title>ESTRUCTURAS - PamPi Mobiliario </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
+  <script src="../layout/scripts/slider.js"></script>
   <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../layout/styles/slider.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body id="top">
@@ -17,11 +18,11 @@
   <div class="wrapper row0">
     <nav id="mainav" class="hoc clear">
       <!-- ################################################################################################ -->
-      <ul class="clear" style="font-family: bebas; font-size: 25px;">
+      <ul class="clear" style="font-family: bebas; font-size: 23px;">
         <li><a href="../PAMPI mobiliario.html">INICIO</a></li>
         <li><a href="Barras.html">BARRAS</a></li>
-        <li><a href="Mesas.html">MESAS</a></li>
-        <li><a href="Sillas.html">SILLAS</a></li>
+        <li><a href="MesasSillasAltas.html">MESAS & SILLAS ALTAS</a></li>
+        <li><a href="SalasLounge.html">SALAS LOUNGE</a></li>
         <li class="active"><a href="Estructuras.html">ESTRUCTURAS</a></li>
         <li><a href="contacto.html">CONTACTO</a></li>
         <!-- ################################################################################################ -->
@@ -56,57 +57,148 @@
             </figcaption>
             <br></br>
             <ul class="nospace clear">
-              <li class="one_quarter first"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/barra jardinera.png';" onmouseover="this.src='../images/barra jardinera hover.jpg';" src="../images/barra jardinera.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Jardinera </br>
+              <li class="one_quarter first">
+                <div class="scroll-container" id="scroll-puertas-vintage">
+                <img src="../images/Puertas Vintage.png" alt="Puertas Vintage">
+                  <img src="../images/puertas vintage inspo.jpg" alt="Puertas Vintage ">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-puertas-vintage')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-puertas-vintage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Puertas Vintage </br>
+                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV
+                </p>
+              </li>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-puertas-ventanal">
+                  <img src="../images/puertas ventana inspo.jpg" alt="Puertas Ventanal">
+                  <img src="../images/puertas ventana inspo.jpg" alt="Puertas Ventanal">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-puertas-ventanal')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-puertas-ventanal')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Puertas Ventanal </br>
                   Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
               </li>
-              <li class="one_quarter"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/barra acrilico.png';" onmouseover="this.src='../images/barra acrilico hover.jpg';" src="../images/barra acrilico.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra con Acrilico </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img alt="cambiar" onmouseout="this.src='../images/4.png';" onmouseover="this.src='../images/09D3761B-F5AB-477A-8F59-8478F70D8A0A.jpg';" src="../images/4.png"
-                  alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Vintage </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra media luna.png"
-                    alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Media Luna </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter first"><a href="#"><img src="../images/barra circular.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Circular </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra bambu.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Listones</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra triangulos.jpg"></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Triangulos </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra listones.jpg"
-                    alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Bohem 1</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter first"><a href="#"><img src="../images/barra trio rectangular.png" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Museo</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra pastel.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Pastel </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra bohem.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Bohem 2</br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
-              <li class="one_quarter"><a href="#"><img src="../images/barra marcos.jpg" alt=""></a>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Retrato </br>
-                  Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
-              </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-puertas-lineales">
+                  <img src="../images/puertas lineales inspo.jpg" alt="Puertas Lineales">
+                    <img src="../images/puertas lineales inspo.jpg" alt="Puertas Lineales">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-puertas-lineales')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-puertas-lineales')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Puertas Lineales </br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV
+                  </p>
+                </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-ventanal">
+                    <img src="../images/ventanal inspo.jpg" alt="Ventanal">
+                    <img src="../images/ventanal inspo.jpg" alt="Ventanal">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-ventanal')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-ventanal')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Ventanal</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter first">
+                  <div class="scroll-container" id="scroll-jardinera-grande">
+                    <img src="../images/Jardinera Grande.png" alt="Jardinera Grande">
+                    <img src="../images/jardinera grande inspo.jpg" alt="Jardinera Grande">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-jardinera-grande')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-jardinera-grande')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Jardinera Grande</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-jardinera-pequeña">
+                    <img src="../images/Jardinera Pequeña.png" alt="Jardinera Pequeña">
+                    <img src="../images/jadinera pequeña inspo.jpg" alt="Jardinera Pequeña">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-jardinera-pequeña')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-jardinera-pequeña')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Jardinera Pequeña</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-backing2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-backing2')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-backing2')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Backing 2</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-backing2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-backing2')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-backing2')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Backing 2</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter first">
+                  <div class="scroll-container" id="scroll-backing2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-backing2')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-backing2')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Backing 2</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
+                <li class="one_quarter">
+                  <div class="scroll-container" id="scroll-backing2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                    <img src="../images/Backing 2.png" alt="Backing 2">
+                  </div>
+                  <div class="scroll-custom-dots">
+                    <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-backing2')">
+                    </a>
+                    <a class="dot-button-scroller" href="javascript:moveRight('scroll-backing2')">
+                    </a>
+                  </div>
+                  <p style="font-family: butler; text-align: center; font-size: 15px;">Backing 2</br>
+                    Medidas: 2m / 4m / 6m </br> desde S/400 + IGV</p>
+                </li>
             </ul>
           </figure>
         </div>
