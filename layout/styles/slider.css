@@ -3,15 +3,43 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  min-height: 225px;
+  min-height: 200px;
   max-height: 290px;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
-.scroll-container img {
+/* .scroll-container img {
   padding: 10px;
-}
+} */
 
 .scroll-custom-dots {
   text-align: center;
+}
+
+.scroll-custom-dots a:active {
+  background-color: grey;
+}
+
+.scroll-custom-dots a:visited {
+  background-color: lightgray;
+}
+.scroll-custom-dots a:link {
+  background-color: lightgray;
+}
+.dot-button-scroller {
+  background-color: lightgray;
+  border-radius: 90%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+.scroll-custom-dots a:hover {
+  background-color: grey;
+}
+.active {
+  background-color: red;
+  border-radius: 90%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
 }
