@@ -1,0 +1,21 @@
+.one_quarter img {
+  /* width: auto; */
+  /* min-width: 350px; */
+  max-width: 100%;
+  max-height: 190px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+}
+.one_third img {
+  /* width: auto; */
+  /* min-width: 350px; */
+  max-width: 145px;
+  /* max-height: 190px; */
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+  /* vertical-align: bottom; */
+}

@@ -6,6 +6,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <!-- <link rel="stylesheet" href="layout/styles/mobile.css" media="screen and (max-width: 390px)" />
+  <link rel="stylesheet" href="layout/styles/tablet.css" media="screen and (min-width: 600px)" />
+  -->
+  <link rel="stylesheet" href="layout/styles/desktop.css" media="screen and (min-width: 800px)" />
+  <script>
+    var texto = encodeURIComponent("Hola!%20Me%20interesa%20cotizar%20mobiliarios.%20¿Me%20pueden%20enviar%20el%20catálogo?");
+    var link = document.getElementById("whatsapp-link");
+    link.href = "https://wa.me/51943986612?text=" + texto;
+  </script>
 </head>
 
 <body id="top">
@@ -22,7 +31,13 @@
         <li><a href="pages/SalasLounge.html">SALAS LOUNGE</a></li>
         <li><a href="pages/Estructuras.html">ESTRUCTURAS</a></li>
         <li><a href="pages/contacto.html">CONTACTO</a></li>
+        <li>
 
+          <a id="whatsapp-link" aria-label="Chat en WhatsApp" href="">
+            <img alt="Chat en WhatsApp" src="Digital_Glyph_Green.png" style="height: 25px;" />
+            WhatsApp
+          </a>
+        </li>
         <!-- <li><a href="pages/sidebar-left.html">COONTACT 2</a></li>
       <li><a href="pages/sidebar-right.html">CONTACT 3</a></li>
       <li><a href="pages/basic-grid.html">CONTACT 4</a></li> -->
@@ -55,7 +70,14 @@
           </div>
           </br>
           <ul class="nospace inline pushright" style="font-family: catchy; font-size: 20px;">
-            <li><a class="btn" href="../pampi/pages/contacto.html">Contacto</a></li>
+            <li>
+
+
+              <a class="btn" href="../pampi/pages/contacto.html">
+
+                Contacto
+              </a>
+            </li>
           </ul>
         </div>
       </article>
@@ -79,23 +101,26 @@
           <h6 class="heading" style="font-family: catchy; font-size: 30px;"> Categorías</h6>
         </div>
         <div class="group team">
-          <figure class="one_quarter first"><a class="imgover" href="pages/Barras.html"><img src="images/barra bohem inspo.jpg"
-                alt=""></a>
+          <figure class="one_quarter first"><a class="imgover" href="pages/Barras.html"><img
+                src="images/barra bohem inspo.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading" style="font-family: chapaza;">Barras</h6>
             </figcaption>
           </figure>
-          <figure class="one_quarter"><a class="imgover" href="pages/Mesas.html"><img src="images/sillas metal 2 inspo.jpg" alt=""></a>
+          <figure class="one_quarter"><a class="imgover" href="pages/Mesas.html"><img
+                src="images/sillas metal 2 inspo.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading" style="font-family: chapaza;">Mesas y Sillas Altas</h6>
             </figcaption>
           </figure>
-          <figure class="one_quarter"><a class="imgover" href="pages/Estructuras.html"><img src="images/copas aro inspo.jpg" alt=""></a>
+          <figure class="one_quarter"><a class="imgover" href="pages/Estructuras.html"><img
+                src="images/copas aro inspo.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading" style="font-family: chapaza;">Estructuras</h6>
             </figcaption>
           </figure>
-          <figure class="one_quarter"><a class="imgover" href="pages/Sillas.html"><img src="images/lounge japandi inspo.jpg" alt=""></a>
+          <figure class="one_quarter"><a class="imgover" href="pages/Sillas.html"><img
+                src="images/lounge japandi inspo.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading" style="font-family: chapaza;">Lounges</h6>
             </figcaption>
@@ -121,7 +146,8 @@
               diseñados
               cuidando cada detalle y fabricados en Perú. Ofrecemos una experiencia de alquiler personalizada, para ser
               tu
-              mejor opción y que tu evento sea tal y como lo soñaste.  Échale un vistazo a nuestra colección 2024.<br></br>
+              mejor opción y que tu evento sea tal y como lo soñaste. Échale un vistazo a nuestra colección
+              2024.<br></br>
               ¡Estamos seguras de que te encantará!</blockquote>
             <p>Pamela & Pierina</p>
           </article>
@@ -150,9 +176,9 @@
     <footer id="footer" class="hoc clear">
       <!-- ################################################################################################ -->
       <div class="one_third first">
-      <ul>
-        <img src="images/LOGO PAMPI png.png">
-      </ul>
+        <ul>
+          <img src="images/LOGO PAMPI png.png" width="170px">
+        </ul>
       </div>
       <div class="one_third">
         <h6 style="font-family: catchy;">PamPi Mobiliario</h6>
@@ -192,28 +218,25 @@
   </div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <!-- #######################WHATSAPP#################################################################### -->
-  <a aria-label="Chat en WhatsApp"
-    href="https://wa.me/34650657958?text=Hola!%20Me%20interesa%20cotizar%20mobiliarios.%20Me%20pueden%20enviar%20el%20catalogo?">
-    <img alt="Chat en WhatsApp" src="Digital_Glyph_Green.png" style="width: 40px;" />
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="wrapper row5">
-      <div id="copyright" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <p class="fl_left">Copyright &copy; 2024 - Todos los derechos reservados - <a href="#">PamPi Mobiliario</a></p>
-        <!-- ################################################################################################ -->
-      </div>
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row5">
+    <div id="copyright" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <p class="fl_left">Copyright &copy; 2024 - Todos los derechos reservados - <a href="#">PamPi Mobiliario</a></p>
+      <!-- ################################################################################################ -->
     </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-    <!-- JAVASCRIPTS -->
-    <script src="layout/scripts/jquery.min.js"></script>
-    <script src="layout/scripts/jquery.backtotop.js"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+  <!-- JAVASCRIPTS -->
+  <script src="layout/scripts/jquery.min.js"></script>
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 
 </html>
