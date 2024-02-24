@@ -19,3 +19,11 @@
   line-height: normal;
   /* vertical-align: bottom; */
 }
+.menu {
+  font-family: bebas;
+  font-size: 23px;
+}
+
+.top-nav {
+  height: 70px;
+}

@@ -8,6 +8,7 @@
   <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="layout/styles/mobile.css" media="screen and (max-width: 470px)" />
   <link rel="stylesheet" href="layout/styles/desktop.css" media="screen and (min-width: 800px)" />
+  <link rel="stylesheet" href="layout/styles/menu.css">
   <script>
     var texto = encodeURIComponent("Hola!%20Me%20interesa%20cotizar%20mobiliarios.%20¿Me%20pueden%20enviar%20el%20catálogo?");
     var link = document.getElementById("whatsapp-link");
@@ -19,44 +20,41 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="wrapper row0">
-    <nav id="mainav" class="hoc clear">
-      <!-- ################################################################################################ -->
-      <ul class="clear" style="font-family: bebas; font-size: 20px;">
-        <li class="active"><a href="PAMPI mobiliario.html">INICIO</a></li>
-        <li><a href="pages/Barras.html">BARRAS</a></li>
-        <li><a href="pages/MesasSillasAltas.html">MESAS & SILLAS ALTAS</a></li>
-        <li><a href="pages/SalasLounge.html">SALAS LOUNGE</a></li>
-        <li><a href="pages/Estructuras.html">ESTRUCTURAS</a></li>
-        <li><a href="pages/contacto.html">CONTACTO</a></li>
-        <li>
+  <!-- <div class="wrapper row0"> -->
+  <section class="top-nav">
 
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <!-- <nav id="mainav" class="hoc clear"> -->
+
+    <ul class="menu">
+      <li class="active"><a href="PAMPI mobiliario.html">INICIO</a></li>
+      <li><a href="pages/Barras.html">BARRAS</a></li>
+      <li><a href="pages/MesasSillasAltas.html">MESAS & SILLAS ALTAS</a></li>
+      <li><a href="pages/SalasLounge.html">SALAS LOUNGE</a></li>
+      <li><a href="pages/Estructuras.html">ESTRUCTURAS</a></li>
+      <li><a href="pages/contacto.html">CONTACTO</a></li>
+      <!-- <li>
           <a id="whatsapp-link" aria-label="Chat en WhatsApp" href="">
             <img alt="Chat en WhatsApp" src="Digital_Glyph_Green.png" style="height: 25px;" />
             WhatsApp
           </a>
-        </li>
-        <!-- <li><a href="pages/sidebar-left.html">COONTACT 2</a></li>
-      <li><a href="pages/sidebar-right.html">CONTACT 3</a></li>
-      <li><a href="pages/basic-grid.html">CONTACT 4</a></li> -->
-      </ul>
-      <!-- ################################################################################################ -->
-    </nav>
-  </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
+        </li> -->
+    </ul>
+
+    <!-- </nav> -->
+  </section>
+  <!-- </div> -->
+
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
-      <!-- ################################################################################################ -->
-      <h1> <img style="height:250px" src="images/Logo PamPi.jpg" alt="logo PamPi"></h1>
+      <h1> <img style="height:248px" src="images/Logo PamPi.jpg" alt="logo PamPi"></h1>
 
-      <!-- ################################################################################################ -->
     </header>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
+
   <div style="background-image:url(images/copas-grass-home-bg.png); background-size: cover;">
     <div id="pageintro" class="hoc clear">
       <!-- ################################################################################################ -->
