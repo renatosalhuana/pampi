@@ -5,30 +5,19 @@
   <title>PamPi</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" media="all">
   <link rel="stylesheet" href="layout/styles/mobile.css" media="screen and (max-width: 470px)" />
   <link rel="stylesheet" href="layout/styles/desktop.css" media="screen and (min-width: 800px)" />
   <link rel="stylesheet" href="layout/styles/menu.css">
-  <script>
-    var texto = encodeURIComponent("Hola!%20Me%20interesa%20cotizar%20mobiliarios.%20¿Me%20pueden%20enviar%20el%20catálogo?");
-    var link = document.getElementById("whatsapp-link");
-    link.href = "https://wa.me/51943986612?text=" + texto;
-  </script>
+  <script src="layout/scripts/whatsapp.js"></script>
 </head>
 
 <body id="top">
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- <div class="wrapper row0"> -->
   <section class="top-nav">
-
     <input id="menu-toggle" type="checkbox" />
     <label class='menu-button-container' for="menu-toggle">
       <div class='menu-button'></div>
     </label>
-    <!-- <nav id="mainav" class="hoc clear"> -->
-
     <ul class="menu">
       <li class="active"><a href="PAMPI mobiliario.html">INICIO</a></li>
       <li><a href="pages/Barras.html">BARRAS</a></li>
@@ -37,27 +26,24 @@
       <li><a href="pages/Estructuras.html">ESTRUCTURAS</a></li>
       <li><a href="pages/contacto.html">CONTACTO</a></li>
       <!-- <li>
-          <a id="whatsapp-link" aria-label="Chat en WhatsApp" href="">
-            <img alt="Chat en WhatsApp" src="Digital_Glyph_Green.png" style="height: 25px;" />
-            WhatsApp
-          </a>
-        </li> -->
+        <a id="whatsapp-link" aria-label="Chat en WhatsApp" href="">
+          <img alt="Chat en WhatsApp" src="Digital_Glyph_Green.png" style="height: 25px;" />
+          WhatsApp
+        </a>
+      </li> -->
     </ul>
-
-    <!-- </nav> -->
   </section>
-  <!-- </div> -->
 
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
-      <h1> <img style="height:248px" src="images/Logo PamPi.jpg" alt="logo PamPi"></h1>
-
+      <h1>
+        <img style="height:248px" src="images/Logo PamPi.jpg" alt="logo PamPi">
+      </h1>
     </header>
   </div>
 
   <div style="background-image:url(images/copas-grass-home-bg.png); background-size: cover;">
     <div id="pageintro" class="hoc clear">
-      <!-- ################################################################################################ -->
       <article style="font-family: castle;">
         <div style="background: rgba(25, 26, 25, 0.6  );padding-top: 5%;padding-bottom: 5%;">
           <h3 class="heading" style="font-family: catchy; font-size: 50px;">Alquiler de Mobiliario</h3>
@@ -67,21 +53,15 @@
           </br>
           <ul class="nospace inline pushright" style="font-family: catchy; font-size: 20px;">
             <li>
-
-
               <a class="btn" href="../pampi/pages/contacto.html">
-
                 Contacto
               </a>
             </li>
           </ul>
         </div>
       </article>
-      <!-- ################################################################################################ -->
     </div>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
   <div class="wrapper row3">
     <main class="hoc container clear">
       <!-- main body -->
@@ -89,8 +69,6 @@
         <h6 class="heading" style="font-family: catchy; font-size: 50px; color:#b99e8d">
           ¿Quieres tener el mobiliario más <i>instagrameable</i> en tu evento? <br></br> ¡CONTÁCTANOS!</h6>
       </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
       <div class="wrapper row3">
         <!-- ################################################################################################ -->
         <div style="text-align: center;">
@@ -172,12 +150,11 @@
     <footer id="footer" class="hoc clear">
       <!-- ################################################################################################ -->
       <div class="one_third first">
-        <ul>
+        <div style="text-align: center;">
           <img src="images/LOGO PAMPI png.png" width="170px">
-        </ul>
+        </div>
       </div>
       <div class="one_third">
-        <h6 style="font-family: catchy;">PamPi Mobiliario</h6>
         <ul class="nospace btmspace-30 linklist contact">
           <li><i class="fa fa-map-marker"></i>
             <address>
@@ -187,27 +164,18 @@
           <li><i class="fa fa-phone"></i> +51 943986612</li>
           <li><i class="fa fa-envelope-o"></i> pampi.mobiliario@gmail.com</li>
         </ul>
-        <ul class="faico clear">
-          <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
 
-        </ul>
       </div>
       <div class="one_third">
-        <h6 style="font-family: catchy;">Contáctanos</h6>
-        <p>¡Estaremos encantadas de enviarte una cotización para tu evento!</p>
-        <form method="post" action="#">
-          <fieldset>
-            <legend>Newsletter:</legend>
-            <input class="btmspace-15" type="text" value="" placeholder="Nombre">
-            <input class="btmspace-15" type="text" value="" placeholder="E-mail / Teléfono">
-            <input class="btmspace-15" type="text" value="" placeholder="Mensaje">
-
-            <button style="font-family: chapaza; font-size: 17px;" type="submit" value="submit">ENVIAR</button>
-          </fieldset>
-        </form>
+        <ul class="faico clear">
+          <li>
+            <a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a id="whatsapp-link" target="_blank" class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a>
+          </li>
+        </ul>
       </div>
       <!-- ################################################################################################ -->
     </footer>
