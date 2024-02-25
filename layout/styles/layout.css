@@ -915,7 +915,7 @@ f11b1b .overlay.light::after {
 }
 .row2 {
   color: #181717;
-  background-color: #fcf5f8;
+  background-color: #F6F5F0;
 }
 .row3 {
   color: #252222;
@@ -928,7 +928,7 @@ f11b1b .overlay.light::after {
 .row5,
 .row5 a {
   color: #666666;
-  background-color: #fff4f4;
+  background-color: #F6F5F0;
 }
 
 /* Header */
