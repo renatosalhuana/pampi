@@ -1,27 +1,37 @@
-function moveRight(elementId) {
-  //dotButton.addClass("active");
-
+function moveTo(imgPosition, elementId) {
   var elementToScroll = document.getElementById(elementId);
-  //alert(elementToScroll.clientWidth);
-  //var dotButton = document.getElementById(dotButtonId);
+  var slideWidth = elementToScroll.clientWidth;
+  var newPosition = 0;
+  if (imgPosition > 0) {
+    newPosition = slideWidth * imgPosition;
+  }
+  elementToScroll.scroll({
+    left: newPosition,
+    behavior: "smooth",
+  });
+}
 
+function moveRight(elementId) {
+  var elementToScroll = document.getElementById(elementId);
   elementToScroll.scroll({
     left: elementToScroll.clientWidth,
     behavior: "smooth",
   });
-  //dotButton.addClass("active");
-  //dotButton.className = "active";
-  //alert(dotButton.className);
 }
 
 function moveLeft(elementId) {
-  //dotButton.addClass("active");
-  //dotButton.className = "active";
   var elementToScroll = document.getElementById(elementId);
-  //elementToScroll.scroll(0, 0);
-
   elementToScroll.scroll({
     left: 0,
     behavior: "smooth",
   });
 }
+
+// alert(
+//   "total width: " +
+//     elementToScroll.scrollWidth +
+//     " slide width: " +
+//     elementToScroll.clientWidth +
+//     " current position: " +
+//     elementToScroll.scrollLeft
+// );
