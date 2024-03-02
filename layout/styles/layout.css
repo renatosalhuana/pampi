@@ -915,7 +915,7 @@ f11b1b .overlay.light::after {
 }
 .row2 {
   color: #181717;
-  background-color: #F6F5F0;
+  background-color: #f6f5f0;
 }
 .row3 {
   color: #252222;
@@ -928,7 +928,7 @@ f11b1b .overlay.light::after {
 .row5,
 .row5 a {
   color: #666666;
-  background-color: #F6F5F0;
+  background-color: #f6f5f0;
 }
 
 /* Header */
@@ -1287,4 +1287,9 @@ table a,
 
 .mywp-float {
   margin-top: 14px;
+}
+
+.last-line {
+  font-size: 0.8em;
+  text-align: center;
 }
