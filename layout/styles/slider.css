@@ -4,7 +4,7 @@
   overflow-y: hidden;
   white-space: nowrap;
   /* min-height: 200px; */
-  height: 160px;
+  max-height: 290px;
   scrollbar-width: none;
   
 }
