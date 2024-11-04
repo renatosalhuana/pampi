@@ -4,8 +4,9 @@
   overflow-y: hidden;
   white-space: nowrap;
   /* min-height: 200px; */
-  max-height: 290px;
+  height: 160px;
   scrollbar-width: none;
+  
 }
 
 /* .scroll-container img {
