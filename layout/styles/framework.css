@@ -139,9 +139,10 @@ a {
   clear: right;
 }
 .imgover {
-  display: inline-block;
+  display: block;
   position: relative;
   max-width: 100%;
+  text-align: center;
 }
 .imgover::before,
 .imgover::after {
