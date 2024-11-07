@@ -1,3 +1,16 @@
+.trendy_text{
+  font-family: Sephir; 
+  font-size: 40px; 
+  color:#b99e8d
+}
+.home_main_text{
+  font-family: Sephir; 
+  font-size: 50px;
+}
+.home_main_text_sub{
+  font-family: Sephir; 
+  font-size: 22px;
+}
 .one_quarter img {
   /* width: auto; */
   min-width: 260px;
