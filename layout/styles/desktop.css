@@ -27,3 +27,7 @@
 .top-nav {
   height: 70px;
 }
+.pageintrobg{
+  background-image:url(../../images/copas-grass-home-bg.webp); 
+  background-size:cover;
+}

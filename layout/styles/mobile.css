@@ -26,3 +26,6 @@
 .top-nav {
   height: 50px;
 }
+.pageintrobg{
+  background-image:url(../../images/bg-mob-backing-arco-take-shot.png); background-size:contain;
+}

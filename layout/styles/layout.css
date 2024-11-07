@@ -1215,7 +1215,8 @@ table a,
   }
 
   #pageintro {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding-top: 120px;
   }
   #pageintro article {
     max-width: none;
