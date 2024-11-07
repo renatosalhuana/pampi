@@ -10,6 +10,21 @@
 }
 
 @font-face {
+  font-family: Sephir;
+  src: url(fonts/sephir/Sephir-Regular.otf);
+}
+
+@font-face {
+  font-family: Miracle;
+  src: url(fonts/miracle_5/Miracle\ Personal\ use.otf);
+}
+
+@font-face {
+  font-family: Ethereal;
+  src: url(fonts/ethereal/EtherealDemoFont-Regular.otf);
+}
+
+@font-face {
   font-family: Bebas;
   src: url(fonts/bebas/Bebas-Regular.otf);
 }
@@ -228,6 +243,7 @@
 .team figure figcaption .heading {
   margin-bottom: 8px;
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 .team figure figcaption em {
   display: block;
