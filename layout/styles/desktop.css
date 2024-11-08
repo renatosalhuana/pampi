@@ -36,11 +36,10 @@
   font-family: bebas;
   font-size: 23px;
 }
-
 .top-nav {
   height: 70px;
 }
 .pageintrobg{
-  background-image:url(../../images/copas-grass-home-bg.webp); 
-  background-size:cover;
+  background-image: url(../../images/copas-grass-home-bg.webp); 
+  background-size: cover;
 }
