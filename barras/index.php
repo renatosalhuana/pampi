@@ -76,8 +76,8 @@
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading" style="font-family: catchy; font-size: 30px;">BARRAS</header>
-            <figcaption style="font-family: chapaza; font-size: 15px;">
+            <header class="heading" style="font-family: Miracle; font-size: 30px;">BARRAS</header>
+            <figcaption style="font-family: Miracle; font-size: 15px;letter-spacing: 1px;">
               Ofrecemos una variedad de barras modernas e ideales para todo tipo de celebraciones, desde eventos corporativos hasta bodas íntimas. Nuestras barras son perfectas para añadir un toque de elegancia y estilo a cualquier ocasión especial.
             </figcaption>
             <br></br>

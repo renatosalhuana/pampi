@@ -33,8 +33,9 @@
   /* vertical-align: bottom; */
 }
 .menu {
-  font-family: bebas;
+  font-family: Colombia;
   font-size: 23px;
+  letter-spacing: -.5px;
 }
 .top-nav {
   height: 70px;

@@ -10,6 +10,11 @@
 }
 
 @font-face {
+  font-family: Colombia;
+  src: url(fonts/colombia/Colombia-Bold.ttf);
+}
+
+@font-face {
   font-family: Sephir;
   src: url(fonts/sephir/Sephir-Regular.otf);
 }
