@@ -76,8 +76,8 @@
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading" style="font-family: Miracle; font-size: 30px;">BARRAS</header>
-            <figcaption style="font-family: Miracle; font-size: 15px;letter-spacing: 1px;">
+            <header class="heading category_title">BARRAS</header>
+            <figcaption class="category_description">
               Ofrecemos una variedad de barras modernas e ideales para todo tipo de celebraciones, desde eventos corporativos hasta bodas íntimas. Nuestras barras son perfectas para añadir un toque de elegancia y estilo a cualquier ocasión especial.
             </figcaption>
             <br></br>
@@ -219,7 +219,7 @@
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-canasta">
                   <img src="../images/mesa-canasta.png" alt="Mesa Canasta">
-                  <img src="../images/mesa-canasta-1.webp" alt="Mesa Canasta">
+                  <img src="../images/mesa-canasta-12.png" alt="Mesa Canasta">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-canasta')">

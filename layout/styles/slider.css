@@ -3,7 +3,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  /* min-height: 200px; */
+  min-height: 170px;
   max-height: 290px;
   scrollbar-width: none;
   

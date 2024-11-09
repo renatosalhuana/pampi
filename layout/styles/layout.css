@@ -50,7 +50,15 @@
 }
 
 /*---------------------------*/
-
+.category_title{
+  font-family: Miracle; 
+  font-size: 30px;
+}
+.category_description{
+  font-family: Miracle; 
+  font-size: 15px;
+  letter-spacing: 1px;
+}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1,
