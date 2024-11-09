@@ -41,6 +41,8 @@
   height: 70px;
 }
 .pageintrobg{
-  background-image: url(../../images/copas-grass-home-bg.webp); 
-  background-size: cover;
+  /* background-image: url(../../images/copas-grass-home-bg.webp);  */
+  /* background-image: url(../../images/lounge-puff-evento.webp);  */
+  background-image: url(../../images/lounge-japandi-64.webp); 
+  background-size: contain;
 }
