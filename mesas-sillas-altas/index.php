@@ -76,7 +76,7 @@ include_once '../template/header.php';
                 <div class="scroll-container" id="scroll-sillas-boho">
                   <img src="../images/mesa-sillas-boho-chic-64.png" alt="Mesas y Sillas Boho Chic">
                   <img src="../images/sillas-mesa-boho-chic-61.png" alt="Mesas y Sillas Boho Chic">
-                  <img src="../images/mesa-sillas-boho-chic-44.webp" alt="Mesas y Sillas Boho Chic">
+                  <!-- <img src="../images/mesa-sillas-boho-chic-44.webp" alt="Mesas y Sillas Boho Chic"> -->
                   <img src="../images/mesa-sillas-boho-chic-123.webp" alt="Mesas y Sillas Boho Chic">
                 </div>
                 <div class="scroll-custom-dots">
@@ -86,8 +86,8 @@ include_once '../template/header.php';
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-boho')">
                   </a>
-                  <a class="dot-button-scroller" href="javascript:moveTo(3,'scroll-sillas-boho')">
-                  </a>
+                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(3,'scroll-sillas-boho')">
+                  </a> -->
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Boho Chic </br>
                   4 pers. / 6 pers. </p>
