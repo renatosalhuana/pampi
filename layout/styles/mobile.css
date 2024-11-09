@@ -1,6 +1,7 @@
 .trendy_text{
   font-family: Sephir; 
   font-size: 40px; 
+  font-weight: bolder;
   color:#b99e8d
 }
 .home_main_text{
@@ -10,6 +11,7 @@
 .home_main_text_sub{
   font-family: Sephir; 
   font-size: 22px;
+  font-weight: bolder;
 }
 .one_quarter img {
   /* width: auto; */

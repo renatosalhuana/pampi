@@ -53,10 +53,12 @@
 .category_title{
   font-family: Miracle; 
   font-size: 30px;
+  
 }
 .category_description{
   font-family: Miracle; 
   font-size: 15px;
+  font-weight:bold;
   letter-spacing: 1px;
 }
 /* Rows
@@ -925,6 +927,7 @@ f11b1b .overlay.light::after {
   color: #ffffff;
   background-color: #98a7b8;
   border-color: #98a7b8;
+  font-weight: bolder;
 }
 .btn:hover,
 .btn.inverse {
