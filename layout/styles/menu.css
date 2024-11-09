@@ -17,8 +17,9 @@
 }
 
 .menu > li {
-  margin: 0 1rem;
+  margin: 0 0.75rem;
   overflow: hidden;
+  text-align: center;
 }
 
 .menu-button-container {

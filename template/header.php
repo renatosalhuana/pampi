@@ -34,7 +34,7 @@
   <link href="../layout/styles/layout.css?p=0" rel="stylesheet" type="text/css" media="all">
   <link href="../layout/styles/mobile.css?p=1" rel="stylesheet" media="screen and (max-width: 470px)" />
   <link href="../layout/styles/desktop.css?p=1" rel="stylesheet" media="screen and (min-width: 800px)" />
-  <link href="../layout/styles/menu.css?p=0" rel="stylesheet">
+  <link href="../layout/styles/menu.css?p=1" rel="stylesheet">
   <link href="../layout/styles/slider.css?p=1" rel="stylesheet" type="text/css" media="all">
   <script src="../layout/scripts/slider.js"></script>
   <script src="../layout/scripts/whatsapp.js"></script>
