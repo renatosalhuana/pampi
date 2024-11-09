@@ -44,7 +44,7 @@ include_once '../template/header.php';
                   </a>
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Royal </br>
-                  Medidas: 2m  </p>
+                  Medidas: 2m / 4m </p>
               </li>
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-bohochic">

@@ -22,8 +22,8 @@ include_once '../template/header.php';
             <ul class="nospace clear">
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-sillas-contemporaneas">
-                  <img src="../images/42 CONTEMPORANEA X4.png" alt="Sillas Contemporaneas">
-                  <img src="../images/43 CONTEMPORANEA X6.png" alt="Sillas Contemporaneas">
+                  <img src="../images/mesa-sillas-contemporaneas-2.png" alt="Sillas Contemporaneas">
+                  <!-- <img src="../images/43 CONTEMPORANEA X6.png" alt="Sillas Contemporaneas"> -->
                   <img src="../images/sillas contemporaneas inspo.png" alt="Sillas Contemporaneas">
                 </div>
                 <div class="scroll-custom-dots">
@@ -31,8 +31,8 @@ include_once '../template/header.php';
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(1,'scroll-sillas-contemporaneas')">
                   </a>
-                  <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
-                  </a>
+                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
+                  </a> -->
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Contemporáneas</br>
                   4 pers. / 6 pers.
