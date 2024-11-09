@@ -175,7 +175,7 @@
               </li>
               <li class="one_quarter ">
                 <div class="scroll-container" id="scroll-barra-vintage">
-                  <img src="../images/9BARRA VINTAGE.webp" alt="Barra Vintage">
+                  <img src="../images/barra-vintage-2.webp" alt="Barra Vintage">
                   <img src="../images/barra-vintage-67.webp" alt="Barra Vintage">
                 </div>
                 <div class="scroll-custom-dots">
@@ -219,7 +219,7 @@
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-canasta">
                   <img src="../images/mesa-canasta.png" alt="Mesa Canasta">
-                  <img src="../images/mesa-canasta-12.png" alt="Mesa Canasta">
+                  <img src="../images/mesa-canasta-12.webp" alt="Mesa Canasta">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-canasta')">
