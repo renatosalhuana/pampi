@@ -118,16 +118,19 @@ include_once '../template/header.php';
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-copasmetal1">
                   <img src="../images/copas-oro-10.png" alt="Copas Oro">
+                  <img src="../images/copas-oro-75.webp" alt="Copas Oro">
+                  <img src="../images/copas-oro-76.webp" alt="Copas Oro">
                   <img src="../images/copas-oro-60.webp" alt="Copas Oro">
-                  <!-- <img src="../images/copas-oro-61.png" alt="Copas Oro"> -->
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveTo(0,'scroll-copasmetal1')">
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(1,'scroll-copasmetal1')">
                   </a>
-                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-copasmetal1')">
-                  </a> -->
+                  <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-copasmetal1')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveTo(3,'scroll-copasmetal1')">
+                  </a>
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Copas Oro</br>
                   Medidas: 2.10m x 1m x .40m </p>
