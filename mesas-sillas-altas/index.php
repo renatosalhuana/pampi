@@ -23,13 +23,17 @@ include_once '../template/header.php';
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-sillas-contemporaneas">
                   <img src="../images/mesa-sillas-contemporaneas-2.png" alt="Sillas Contemporaneas">
-                  <!-- <img src="../images/43 CONTEMPORANEA X6.png" alt="Sillas Contemporaneas"> -->
-                  <img src="../images/sillas contemporaneas inspo.png" alt="Sillas Contemporaneas">
+                  <img src="../images/sillas-mesa-contemporanea-14.webp" alt="Sillas Contemporaneas">
+                  <img src="../images/sillas-mesa-contemporanea-15.webp" alt="Sillas Contemporaneas">
+                  
+                  <!-- <img src="../images/sillas contemporaneas inspo.png" alt="Sillas Contemporaneas"> -->
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveTo(0,'scroll-sillas-contemporaneas')">
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(1,'scroll-sillas-contemporaneas')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
                   </a>
                   <!-- <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
                   </a> -->
