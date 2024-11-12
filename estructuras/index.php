@@ -218,7 +218,7 @@ include_once '../template/header.php';
               <li class="one_quarter first" >
                 <div class="scroll-container" id="scroll-torredecopas">
                   <img src="../images/31 TORRE DE COPAS.png" alt="Torre de Copas">
-                  <img src="../images/torre de copas inspo.png" alt="Torre de Copas">
+                  <img src="../images/torre-de-copas-9.png" alt="Torre de Copas">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-torredecopas')">
