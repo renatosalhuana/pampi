@@ -35,7 +35,7 @@ include_once '../template/header.php';
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-royal">
                   <img src="../images/2BARRA ROYAL.webp" alt="Barra Royal">
-                  <img src="../images/barra royal inspo.webp" alt="Barra Royal">
+                  <img src="../images/barra-royal-79.webp" alt="Barra Royal">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-royal')">
