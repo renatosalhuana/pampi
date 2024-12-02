@@ -251,7 +251,8 @@ include_once '../template/header.php';
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-carritoroyal">
                   <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal">
-                  <img src="../images/carrito royal inspo.png" alt="Carrito Royal">
+                  <!-- <img src="../images/carrito royal inspo.png" alt="Carrito Royal"> -->
+                  <img src="../images/carrito-royal-6.webp" alt="Carrito Royal">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-carritoroyal')">
