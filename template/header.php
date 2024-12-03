@@ -32,7 +32,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="../layout/styles/layout.css?p=1" rel="stylesheet" type="text/css" media="all">
-  <link href="../layout/styles/mobile.css?p=1" rel="stylesheet" media="screen and (max-width: 470px)" />
+  <link href="../layout/styles/mobile.css?p=1" rel="stylesheet" media="screen and (max-width: 759px)" />
   <link href="../layout/styles/desktop.css?p=1" rel="stylesheet" media="screen and (min-width: 760px)" />
   <link href="../layout/styles/menu.css?p=1" rel="stylesheet">
   <link href="../layout/styles/slider.css?p=1" rel="stylesheet" type="text/css" media="all">
@@ -50,7 +50,7 @@
       <div class='menu-button'></div>
     </label>
     <ul class="menu">
-      <li><a href="/">INICIO</a></li>
+      <li <?php if($active_menu == 'inicio') echo 'class="active"' ?>><a href="/">INICIO</a></li>
       <li <?php if($active_menu == 'barras') echo 'class="active"' ?> ><a href="/barras/">BARRAS</a></li>
       <li <?php if($active_menu == 'mesas-sillas-altas') echo 'class="active"' ?>><a href="/mesas-sillas-altas/">MESAS & SILLAS ALTAS</a></li>
       <li <?php if($active_menu == 'salas-lounge') echo 'class="active"' ?>><a href="/salas-lounge/">SALAS LOUNGE</a></li>
