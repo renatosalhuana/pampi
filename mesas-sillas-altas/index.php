@@ -23,11 +23,12 @@ include_once '../template/header.php';
             <ul class="nospace clear">
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-sillas-contemporaneas">
-                  <img src="../images/mesa-sillas-contemporaneas-2.png" alt="Sillas Contemporaneas">
+                  
+                <img src="../images/sillas-mesa-contemporanea-35.webp" alt="Sillas Contemporaneas">
+                <img src="../images/sillas-mesa-contemporanea-3.webp" alt="Sillas Contemporaneas">
                   <img src="../images/sillas-mesa-contemporanea-14.webp" alt="Sillas Contemporaneas">
                   <img src="../images/sillas-mesa-contemporanea-15.webp" alt="Sillas Contemporaneas">
                   
-                  <!-- <img src="../images/sillas contemporaneas inspo.png" alt="Sillas Contemporaneas"> -->
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveTo(0,'scroll-sillas-contemporaneas')">
@@ -36,8 +37,8 @@ include_once '../template/header.php';
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
                   </a>
-                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-contemporaneas')">
-                  </a> -->
+                  <a class="dot-button-scroller" href="javascript:moveTo(3,'scroll-sillas-contemporaneas')">
+                  </a>
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Contemporáneas</br>
                   4 pers. / 6 pers.
@@ -45,9 +46,9 @@ include_once '../template/header.php';
               </li>
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-sillas-metal2">
-                  <img src="../images/46 METAL2 X4.png" alt="Sillas Metal2">
-                  <img src="../images/47 METAL2 X6.png" alt="Sillas Metal2">
-                  <img src="../images/sillas metal 2 inspo.png" alt="Sillas Metal2">
+                  <img src="../images/mesas-sillas-metalicas-58.webp" alt="Sillas Metálicas">
+                  <img src="../images/mesas-sillas-metalicas-79.webp" alt="Sillas Metálicas">
+                  <img src="../images/mesas-sillas-metalicas-78.webp" alt="Sillas Metálicas">
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveTo(0,'scroll-sillas-metal2')">
@@ -57,7 +58,7 @@ include_once '../template/header.php';
                   <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-metal2')">
                   </a>
                 </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Metálicas B </br>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Metálicas</br>
                   4 pers. / 6 pers. </p>
               </li>
               <li class="one_quarter">
@@ -81,7 +82,6 @@ include_once '../template/header.php';
                 <div class="scroll-container" id="scroll-sillas-boho">
                   <img src="../images/mesa-sillas-boho-chic-64.png" alt="Mesas y Sillas Boho Chic">
                   <img src="../images/sillas-mesa-boho-chic-61.png" alt="Mesas y Sillas Boho Chic">
-                  <!-- <img src="../images/mesa-sillas-boho-chic-44.webp" alt="Mesas y Sillas Boho Chic"> -->
                   <img src="../images/mesa-sillas-boho-chic-123.webp" alt="Mesas y Sillas Boho Chic">
                 </div>
                 <div class="scroll-custom-dots">
@@ -91,8 +91,6 @@ include_once '../template/header.php';
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-sillas-boho')">
                   </a>
-                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(3,'scroll-sillas-boho')">
-                  </a> -->
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Sillas Boho Chic </br>
                   4 pers. / 6 pers. </p>
