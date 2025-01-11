@@ -37,7 +37,7 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Lounge Modular Metálico </br>
                   6 pers. </p>
               </li>
-              <li class="one_quarter">
+              <!-- <li class="one_quarter">
                 <div class="scroll-container" id="scroll-lounge-modular">
                   <img src="../images/55 LOUNGE CUERO MODULAR.png" alt="Lounge Modular">
                   <img src="../images/55 LOUNGE CUERO MODULAR1.png" alt="Lounge Modular">
@@ -53,7 +53,7 @@ include_once '../template/header.php';
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Lounge Modular Cuero</br>
                   6 pers. </p>
-              </li>
+              </li> -->
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-lounge-japandi">
                   <img src="../images/lounge-japandi-01.png" alt="Lounge Japandi">
