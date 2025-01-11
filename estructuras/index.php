@@ -332,7 +332,7 @@ include_once '../template/header.php';
                   Medidas: 2.10m x .95m
                 </p>
               </li>
-              <li class="one_quarter">
+              <!-- <li class="one_quarter">
                 <div class="scroll-container" id="scroll-puertas-ventanal">
                   <img src="../images/14PUERTA VENTANAL.png" alt="Puertas Ventanal">
                   <img src="../images/puertas ventanal inspo.png" alt="Puertas Ventanal">
@@ -345,8 +345,8 @@ include_once '../template/header.php';
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Puertas Ventanal </br>
                   Medidas: 2.20m x .95m </p>
-              </li>
-              <li class="one_quarter first">
+              </li> -->
+              <li class="one_quarter">
                 <div class="scroll-container" id="scroll-puertas-lineales">
                   <img src="../images/15PUERTA LINEAL.png" alt="Puertas Lineales">
                   <img src="../images/puertas lineales inspo.png" alt="Puertas Lineales">
