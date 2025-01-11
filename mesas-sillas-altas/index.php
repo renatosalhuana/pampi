@@ -1,5 +1,6 @@
 <?php
 $active_menu = "mesas-sillas-altas";
+$title = "MESAS & SILLAS ALTAS";
 
 include_once '../template/header.php';
 ?>

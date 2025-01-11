@@ -1,5 +1,6 @@
 <?php
 $active_menu = "salas-lounge";
+$title = "SALAS LOUNGE";
 
 include_once '../template/header.php';
 ?>

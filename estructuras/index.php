@@ -1,5 +1,6 @@
 <?php
 $active_menu = "estructuras";
+$title = "ESTRUCTURAS";
 include_once '../template/header.php';
 ?>
   <div class="wrapper row3">
