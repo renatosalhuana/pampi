@@ -1,6 +1,6 @@
 <?php
 $active_menu = "mesas-sillas-altas";
-$title = "MESAS & SILLAS ALTAS";
+$title = "SILLAS ALTAS";
 include_once '../template/header.php';
 include_once '../template/functions.php';
 ?>
@@ -12,7 +12,7 @@ include_once '../template/functions.php';
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading category_title">MESAS y SILLAS ALTAS</header>
+            <header class="heading category_title">SILLAS ALTAS</header>
             <figcaption class="category_description"> Añade un toque creativo y moderno a tu próximo
               evento con nuestras mesas y sillas altas de diseño.
               Ya sea para un cumpleaños, boda o reunión informal, nuestras piezas vanguardistas y elegantes crearán un

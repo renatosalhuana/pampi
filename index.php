@@ -43,13 +43,13 @@ include_once 'template/header.php';
           <figure class="one_quarter first">
             <a class="imgover" href="barras/"><img src="images/evento-barra-japandi.webp" alt="Barra Japandi"></a>
             <figcaption>
-              <h6 class="heading" style="font-family: Miracle;font-size: 20px;">Barras</h6>
+              <h6 class="heading" style="font-family: Miracle;font-size: 20px;">Barras y Mesas</h6>
             </figcaption>
           </figure>
           <figure class="one_quarter">
             <a class="imgover" href="mesas-sillas-altas/"><img src="images/sillas-boho-matrimonio.webp" alt="Sillas Boho Chic"></a>
             <figcaption>
-              <h6 class="heading" style="font-family: Miracle;font-size: 20px;">Mesas y Sillas Altas</h6>
+              <h6 class="heading" style="font-family: Miracle;font-size: 20px;">Sillas Altas</h6>
             </figcaption>
           </figure>
           <figure class="one_quarter">
