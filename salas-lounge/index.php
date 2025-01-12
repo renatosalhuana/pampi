@@ -18,7 +18,7 @@ include_once '../template/header.php';
               Cada pieza expresa una personalidad única que transformará tu evento en una experiencia inolvidable bajo
               el cielo.
             </figcaption>
-            <br></br>
+            
             <ul class="nospace clear">
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-lounge-metalico">

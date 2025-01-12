@@ -4,7 +4,6 @@ $title = "BARRAS";
 
 include_once '../template/header.php';
 ?>
-
   <div class="wrapper row3">
     <main class="hoc container clear">
       <!-- main body -->
@@ -17,7 +16,7 @@ include_once '../template/header.php';
             <figcaption class="category_description">
               Ofrecemos una variedad de barras modernas e ideales para todo tipo de celebraciones, desde eventos corporativos hasta bodas íntimas. Nuestras barras son perfectas para añadir un toque de elegancia y estilo a cualquier ocasión especial.
             </figcaption>
-            <br></br>
+            
             <ul class="nospace clear">
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-barra-jardinera">
@@ -166,6 +165,34 @@ include_once '../template/header.php';
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;"> Mesa Canasta </br>
                   Medidas: 2.25m x 1.70m x .80m </p>
+              </li>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-carritoroyal">
+                  <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal">
+                  <img src="../images/carrito-royal-6.webp" alt="Carrito Royal">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-carritoroyal')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-carritoroyal')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Royal</br>
+                  Medidas: 2m x 1.80cm x .80m </p>
+              </li>
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-carritovintage">
+                  <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage">
+                  <img src="../images/carrito-vintage-1.webp" alt="Carrito Vintage">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-carritovintage')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-carritovintage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Vintage</br>
+                  Medidas: .84m x 1.50m x .65m </p>
               </li>
             </ul>
           </figure>

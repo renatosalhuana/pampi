@@ -18,7 +18,7 @@ include_once '../template/header.php';
               invitados se fotografiarán con estilo.
               Nuestras creaciones añadirán un toque mágico a cualquier fiesta.
             </figcaption>
-            <br></br>
+            
             <ul class="nospace clear">
               <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-ventanal">
@@ -249,37 +249,9 @@ include_once '../template/header.php';
                   Medidas: 2.10m x 1.30m </br> *75 copas de champagne</p>
               </li>
              
-              <li class="one_quarter">
-                <div class="scroll-container" id="scroll-carritoroyal">
-                  <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal">
-                  <!-- <img src="../images/carrito royal inspo.png" alt="Carrito Royal"> -->
-                  <img src="../images/carrito-royal-6.webp" alt="Carrito Royal">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-carritoroyal')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-carritoroyal')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Royal</br>
-                  Medidas: 2m x 1.80cm x .80m </p>
-              </li>
-              <li class="one_quarter">
-                <div class="scroll-container" id="scroll-carritovintage">
-                  <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage">
-                  <img src="../images/carrito-vintage-1.webp" alt="Carrito Vintage">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-carritovintage')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-carritovintage')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Vintage</br>
-                  Medidas: .84m x 1.50m x .65m </p>
-              </li>
+              
             
-              <li class="one_quarter first">
+              <li class="one_quarter">
                 <div class="scroll-container" id="scroll-columpio">
                   <img src="../images/columpio-1.png" alt="Columpio">
                   <img src="../images/columpio-11.webp" alt="Columpio">
@@ -317,7 +289,7 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Backing Arco</br>
                   Medidas: 2.40m x 2.40m </p>
               </li>
-                <li class="one_quarter ">
+                <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-puertas-vintage">
                   <img src="../images/13PUERTA VINTAGE.png" alt="Puertas Vintage">
                   <img src="../images/puertas vintage inspo.png" alt="Puertas Vintage ">
