@@ -61,10 +61,10 @@
 
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
-      <h1>
+      <!-- <h1> -->
         <a href="/">
           <img style="height:248px" src="../images/logo-pampi-mobiliario-2.webp" alt="logo PamPi">
         </a>
-      </h1>
+      <!-- </h1> -->
     </header>
   </div>

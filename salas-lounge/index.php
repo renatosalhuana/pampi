@@ -12,7 +12,7 @@ include_once '../template/header.php';
         <!-- ################################################################################################ -->
         <div id="gallery" >
           <figure>
-            <header class="heading category_title">SALAS LOUNGE</header>
+            <h1 class="heading category_title">SALAS LOUNGE</h1>
             <figcaption class="heading category_description">Deja a tus invitados boquiabiertos con nuestra
               colección de salas lounge de diseño vanguardista que hará brillar el estilo de tu evento.
               Cada pieza expresa una personalidad única que transformará tu evento en una experiencia inolvidable bajo

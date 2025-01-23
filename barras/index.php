@@ -12,7 +12,7 @@ include_once '../template/header.php';
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading category_title">BARRAS Y MESAS</header>
+            <h1 class="heading category_title">BARRAS Y MESAS</h1>
             <figcaption class="category_description">
               Ofrecemos una variedad de barras y mesas modernas e ideales para todo tipo de celebraciones, desde eventos corporativos hasta bodas íntimas. Nuestras barras y mesas son perfectas para añadir un toque de elegancia y estilo a cualquier ocasión especial.
             </figcaption>

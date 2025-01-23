@@ -9,7 +9,7 @@ include_once 'template/header.php';
     <div id="pageintro" class="hoc clear">
       <article style="font-family: castle;">
         <div style="background: rgba(25, 26, 25, 0.6  );padding-top: 5%;padding-bottom: 5%;">
-          <h3 class="heading home_main_text" >Alquiler de Mobiliario</h3>
+          <h1 class="heading home_main_text" >Alquiler de Mobiliario</h1>
           <div class="home_main_text_sub">
             <p>Ofrecemos el servicio de alquiler del mobiliario más <i>trendy</i> para tu evento.</p>
           </div>
@@ -29,9 +29,11 @@ include_once 'template/header.php';
     <main class="hoc container clear">
       <!-- main body -->
       <div class="sectiontitle">
-        <h6 class="heading trendy_text">
+        <h2 class=" trendy_text">
           <span style="font-family: Miracle;">¿</span>Quieres tener el mobiliario más <i>instagrameable</i> en tu evento<span style="font-family: Miracle;">?</span>
-          <br></br> <span style="font-family: Miracle;">¡</span>Contáctanos<span style="font-family: Miracle;">!</span></h6>
+        </h2>
+        <br><br>
+        <h6 class="heading trendy_text"> <span style="font-family: Miracle;">¡</span>Contáctanos<span style="font-family: Miracle;">!</span></h6>
       </div>
       <div class="wrapper row3">
         <!-- ################################################################################################ -->

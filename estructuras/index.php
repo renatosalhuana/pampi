@@ -11,7 +11,7 @@ include_once '../template/header.php';
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <header class="heading category_title">ESTRUCTURAS</header>
+            <h1 class="heading category_title">ESTRUCTURAS</h1>
             <figcaption class="category_description"> Tenemos una colección de estructuras únicas que
               elevarán tus celebraciones a otro nivel.
               Desde arcos de ensueño que enmarcarán el brindis perfecto, hasta backings impresionantes donde los
