@@ -23,5 +23,10 @@ function renderGalleryItem($id, $images, $altText, $description, $isFirst = fals
     </li>";
 }
 
+function renderSimpleItem($imageSrc, $altText, $description, $isFirst = false) {
+    $firstClass = $isFirst ? 'first' : '';
+    echo "<img style='width:25%' src='$imageSrc' alt='$altText'>";
+}
+
 
 ?>

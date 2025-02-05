@@ -56,15 +56,14 @@ include_once '../template/header.php';
                 <div class="scroll-container" id="scroll-backing3">
                   <img src="../images/backing-3-repisas.png" alt="Backing 3">
                   <img src="../images/backing-3-repisas-89.webp" alt="Backing 3">
-                  <!-- <img src="../images/backing-3-repisas-90.webp" alt="Backing 3"> -->
+                  
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller active" href="javascript:moveTo(0,'scroll-backing3')">
                   </a>
                   <a class="dot-button-scroller" href="javascript:moveTo(1,'scroll-backing3')">
                   </a>
-                  <!-- <a class="dot-button-scroller" href="javascript:moveTo(2,'scroll-backing3')">
-                  </a> -->
+                  
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Backing 3</br>
                   Medidas: 2m x 1m </p>
@@ -103,7 +102,6 @@ include_once '../template/header.php';
                   <img src="../images/trio-de-copas-1.png" alt="Trio de Copas">
                   <img src="../images/trio-de-copas-30.webp" alt="Trio de Copas">
                   <img src="../images/trio-de-copas-40.webp" alt="Trio de Copas">
-                  <!-- <img src="../images/trio-de-copas-3.jpg" alt="Trio de Copas"> -->
                 </div>
                 <div class="scroll-custom-dots">
                   <a class="dot-button-scroller" href="javascript:moveTo(0,'scroll-triodecopas')">
@@ -304,20 +302,7 @@ include_once '../template/header.php';
                   Medidas: 2.10m x .95m
                 </p>
               </li>
-              <!-- <li class="one_quarter">
-                <div class="scroll-container" id="scroll-puertas-ventanal">
-                  <img src="../images/14PUERTA VENTANAL.png" alt="Puertas Ventanal">
-                  <img src="../images/puertas ventanal inspo.png" alt="Puertas Ventanal">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-puertas-ventanal')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-puertas-ventanal')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Puertas Ventanal </br>
-                  Medidas: 2.20m x .95m </p>
-              </li> -->
+            
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-puertas-lineales">
                   <img src="../images/15PUERTA LINEAL.png" alt="Puertas Lineales">

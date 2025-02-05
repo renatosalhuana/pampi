@@ -1,6 +1,6 @@
 <?php
 $active_menu = "inicio";
-$title = 'HOME';
+$title = '';
 
 include_once 'template/header.php';
 ?>

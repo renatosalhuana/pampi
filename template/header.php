@@ -10,7 +10,7 @@
     gtag('js', new Date());
     gtag('config', 'G-CJCVGND11N');
   </script>
-  <title><?php echo $title; ?> - PamPi Mobiliario </title>
+  <title><?php if($title != '') echo $title . ' - ' ; ?> PamPi Mobiliario - Alquiler para eventos Lima</title>
   <link rel="apple-touch-icon" sizes="57x57" href="../webicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../webicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../webicon/apple-icon-72x72.png">
