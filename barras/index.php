@@ -46,20 +46,7 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Royal </br>
                   Medidas: 2m / 4m </p>
               </li>
-              <li class="one_quarter">
-                <div class="scroll-container" id="scroll-barra-bohochic">
-                  <img src="../images/11BARRA BOHO CHIC.webp" alt="Barra Boho Chic">
-                  <img src="../images/barra boho chic inspo.webp" alt="Barra Boho Chic">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-bohochic')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-bohochic')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Boho Chic </br>
-                  Medidas: 2m / 4m   </p>
-              </li>
+             
 
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-asia">
@@ -79,20 +66,7 @@ include_once '../template/header.php';
                   Medidas: 2m / 4m   </p>
               </li>
 
-              <li class="one_quarter first">
-                <div class="scroll-container" id="scroll-barra-museo">
-                  <img src="../images/5BARRA MUSEO.webp" alt="Barra Museo">
-                  <img src="../images/5BARRA MUSEO.webp" alt="Barra Museo">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-museo')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-museo')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Museo </br>
-                  Medidas: 2m / 4m   </p>
-              </li>
+              
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-medialuna">
                   <img src="../images/3BARRA MEDIA LUNA.webp" alt="Barra Media Luna">
@@ -109,7 +83,7 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Media Luna </br>
                   Medidas/Diámetro: 1.95m </p>
               </li>
-              <li class="one_quarter ">
+              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-barra-vintage">
                   <img src="../images/barra-vintage-2.webp" alt="Barra Vintage">
                   <img src="../images/barra-vintage-67.webp" alt="Barra Vintage">
@@ -123,22 +97,8 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Vintage </br>
                   Medidas: 2m / 4m   </p>
               </li>
+              
               <li class="one_quarter">
-                <div class="scroll-container" id="scroll-barra-bohem">
-                  <img src="../images/10BARRA BOHEM.webp" alt="Barra Bohem">
-                  <img src="../images/barra bohem inspo.webp" alt="Barra Bohem">
-                  <!-- <img src="../images/barra bohem inspo.jpg" alt="Barra Bohem"> -->
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-bohem')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-bohem')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Bohem </br>
-                  Medidas: 2m / 4m   </p>
-              </li>
-              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-barra-marcos">
                   <img src="../images/6BARRA MARCOS.webp" alt="Barra Marcos">
                   <img src="../images/barra marcos inspo.webp" alt="Barra Marcos">
