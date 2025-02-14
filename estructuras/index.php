@@ -40,7 +40,7 @@ include_once '../template/functions.php';
                                 '../images/jardinera-grande-36.webp'
                             ],
                             'Jardinera Grande',
-                            'Jardinera Grande</br>Medidas: 2.20m x 2.50m '
+                            'Jardinera Grande</br>Medidas: 2.40m x 2.15m '
                         );
                         renderGalleryItem(
                           'scroll-backing3',
