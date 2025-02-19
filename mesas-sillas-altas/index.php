@@ -29,7 +29,7 @@ include_once '../template/functions.php';
                                 '../images/sillas-mesa-contemporanea-15.webp'
                             ],
                             'Sillas Contemporaneas',
-                            'Sillas Contemporáneas</br> 4 pers. / 6 pers.',
+                            'Sillas Contemporáneas</br> 4 pers.',
                             true
                         );
                         renderGalleryItem(
@@ -40,7 +40,7 @@ include_once '../template/functions.php';
                                 '../images/mesas-sillas-metalicas-78.webp'
                             ],
                             'Sillas Metálicas',
-                            'Sillas Metálicas</br> 4 pers. / 6 pers.'
+                            'Sillas Metálicas</br> 4 pers.'
                         );
                         renderGalleryItem(
                           'scroll-sillas-industrial',
@@ -50,7 +50,7 @@ include_once '../template/functions.php';
                               '../images/mesa-sillas-industrial-87.webp'
                           ],
                           'Mesa y Sillas industrial',
-                          'Sillas Industriales</br> 4 pers. / 6 pers.'
+                          'Sillas Industriales</br> 4 pers.'
                         );
                         renderGalleryItem(
                           'scroll-sillas-boho',
@@ -60,7 +60,7 @@ include_once '../template/functions.php';
                               '../images/mesa-sillas-boho-chic-123.webp'
                           ],
                           'Mesa y Sillas industrial',
-                          'Sillas Boho Chic</br> 4 pers. / 6 pers.'
+                          'Sillas Boho Chic</br> 4 pers.'
                         );
                         ?>
             </ul>
