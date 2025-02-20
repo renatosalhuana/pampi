@@ -25,7 +25,7 @@ include_once '../template/functions.php';
             renderGalleryItem(
               'scroll-lounge-metalico',
               [
-                  '../images/54 LOUNGE METALICO MODULAR.png',
+                  '../images/salas-lounge-puff-01.png',
                   '../images/salas-lounge-puff-evento.webp'
               ],
               'Salas Lounge Modular Metalico',

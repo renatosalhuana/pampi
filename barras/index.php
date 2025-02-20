@@ -63,9 +63,38 @@ include_once '../template/header.php';
                   </a>
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Japandi </br>
-                  Medidas: 2m / 4m   </p>
+                  Medidas: 2m </p>
               </li>
 
+              <li class="one_quarter">
+                <div class="scroll-container" id="scroll-barra-vintage">
+                  <img src="../images/barra-vintage-2.webp" alt="Barra Vintage">
+                  <img src="../images/barra-vintage-67.webp" alt="Barra Vintage">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-vintage')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-vintage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Vintage </br>
+                  Medidas: 2m   </p>
+              </li>
+              
+              <li class="one_quarter first">
+                <div class="scroll-container" id="scroll-barra-marcos">
+                  <img src="../images/6BARRA MARCOS.webp" alt="Barra Marcos">
+                  <img src="../images/barra marcos inspo.webp" alt="Barra Marcos">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-marcos')">
+                  </a>
+                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-marcos')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Marcos </br>
+                  Medidas: 2m / 4m   </p>
+              </li>
               
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-medialuna">
@@ -81,37 +110,11 @@ include_once '../template/header.php';
                   <a class="dot-button-scroller active" href="javascript:moveTo(3,'scroll-barra-medialuna')"></a>
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Media Luna </br>
-                  Medidas/Diámetro: 1.95m </p>
-              </li>
-              <li class="one_quarter first">
-                <div class="scroll-container" id="scroll-barra-vintage">
-                  <img src="../images/barra-vintage-2.webp" alt="Barra Vintage">
-                  <img src="../images/barra-vintage-67.webp" alt="Barra Vintage">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-vintage')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-vintage')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Vintage </br>
-                  Medidas: 2m / 4m   </p>
+                  Medidas: 3.40m x 1.80m </p>
               </li>
               
-              <li class="one_quarter">
-                <div class="scroll-container" id="scroll-barra-marcos">
-                  <img src="../images/6BARRA MARCOS.webp" alt="Barra Marcos">
-                  <img src="../images/barra marcos inspo.webp" alt="Barra Marcos">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-marcos')">
-                  </a>
-                  <a class="dot-button-scroller" href="javascript:moveRight('scroll-barra-marcos')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Marcos </br>
-                  Medidas: 2m / 4m   </p>
-              </li>
+              
+            
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-canasta">
                   <img src="../images/mesa-canasta.png" alt="Mesa Canasta">
@@ -128,7 +131,8 @@ include_once '../template/header.php';
               </li>
               <li class="one_quarter">
                 <div class="scroll-container" id="scroll-carritoroyal">
-                  <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal">
+                  <!-- <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal"> -->
+                  <img src="../images/carrito-royal-72.png" alt="Carrito Royal">
                   <img src="../images/carrito-royal-6.webp" alt="Carrito Royal">
                 </div>
                 <div class="scroll-custom-dots">
@@ -140,9 +144,11 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Royal</br>
                   Medidas: 2m x 1.80cm x .80m </p>
               </li>
-              <li class="one_quarter">
+              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-carritovintage">
-                  <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage">
+                  <!-- <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage"> -->
+                  <img src="../images/carrito-vintage-01.png" alt="Carrito Vintage">
+
                   <img src="../images/carrito-vintage-1.webp" alt="Carrito Vintage">
                 </div>
                 <div class="scroll-custom-dots">

@@ -1,6 +1,6 @@
 <?php
 $active_menu = "estructuras";
-$title = "ESTRUCTURAS";
+$title = "BACKDROPS & REPISAS";
 include_once '../template/header.php';
 include_once '../template/functions.php';
 ?>
@@ -12,7 +12,7 @@ include_once '../template/functions.php';
         <!-- ################################################################################################ -->
         <div id="gallery">
           <figure>
-            <h1 class="heading category_title">ESTRUCTURAS</h1>
+            <h1 class="heading category_title">BACKDROPS & REPISAS</h1>
             <figcaption class="category_description"> Tenemos una colección de estructuras únicas que
               elevarán tus celebraciones a otro nivel.
               Desde arcos de ensueño que enmarcarán el brindis perfecto, hasta backings impresionantes donde los
@@ -23,33 +23,38 @@ include_once '../template/functions.php';
             <ul class="nospace clear">
             <?php
                         renderGalleryItem(
-                            'scroll-ventanal',
-                            [
-                                '../images/ventanales-1.png',
-                                '../images/ventanales-804.png'
-                            ],
-                            'Ventanal',
-                            'Ventanal</br>Medidas: 2.05m x 1.10m',
-                            true
-                        );
-                        renderGalleryItem(
-                            'scroll-jardinera-grande',
-                            [
-                                '../images/jardinera-grande-backing.png',
-                                '../images/jardinera-grande-31.webp',
-                                '../images/jardinera-grande-36.webp'
-                            ],
-                            'Jardinera Grande',
-                            'Jardinera Grande</br>Medidas: 2.40m x 2.15m '
-                        );
-                        renderGalleryItem(
-                          'scroll-backing3',
+                          'scroll-jardinera-grande',
                           [
-                              '../images/backing-3-repisas.png',
-                              '../images/backing-3-repisas-89.webp'
+                              '../images/repisas-jardinera-grande-82.png'
                           ],
-                          'Backing 3',
-                          'Backing 3</br>Medidas: 2m x 1m '
+                          'Repisas Jardinera Grande',
+                          'Repisas Jardinera Grande</br>Medidas: 2.40m x 2.15m',
+                          true
+                        );
+                        renderGalleryItem(
+                          'scroll-repisas-espejo',
+                          [
+                              '../images/repisas-espejo.png'
+                          ],
+                          'Repisas Espejo',
+                          'Repisas Espejo</br>Medidas: 2.30m x 2.40m'
+                        );
+                        renderGalleryItem(
+                          'scroll-jardinera-peque',
+                          [
+                              '../images/repisas-jardinera-peque-01.png'
+                          ],
+                          'Repisas Jardinera Pequeña',
+                          'Repisas Jardinera Pequeña</br>Medidas: 2m x 1m'
+                        );
+                        renderGalleryItem(
+                          'scroll-torredecopas',
+                          [
+                              '../images/31 TORRE DE COPAS.png',
+                              '../images/torre-de-copas-9.png'
+                          ],
+                          'Torre de Copas',
+                          'Torre de Copas</br>Medidas: 2m x 1m'
                         );
                         renderGalleryItem(
                           'scroll-triodecopas',
@@ -59,7 +64,38 @@ include_once '../template/functions.php';
                               '../images/trio-de-copas-40.webp'
                           ],
                           'Trio de Copas',
-                          'Trío de Copas</br>Medidas: 2m x 2m '
+                          'Trío de Copas</br>Medidas: 2m x 2m ',
+                          true
+                        );
+                        renderGalleryItem(
+                          'scroll-jardinera-grande',
+                          [
+                              '../images/jardinera-grande-backing.png',
+                              '../images/jardinera-grande-31.webp',
+                              '../images/jardinera-grande-36.webp'
+                          ],
+                          'Jardinera Grande',
+                          'Jardinera Grande</br>Medidas: 2.40m x 2.15m '
+                      );
+
+                        renderGalleryItem(
+                            'scroll-ventanal',
+                            [
+                                '../images/ventanales-1.png',
+                                '../images/ventanales-804.png'
+                            ],
+                            'Ventanal',
+                            'Ventanal</br>Medidas: 2.05m x 1.10m'
+                        );
+                        renderGalleryItem(
+                          'scroll-wall-shots',
+                          [
+                              '../images/wall-shots.webp',
+                              '../images/wall-de-shots-11.webp',
+                              '../images/wall-de-shots-12.webp'
+                          ],
+                          'Wall de Shots',
+                          'Wall de Shots</br>Capacidad de 80 a 100 shots '
                         );
                         renderGalleryItem(
                           'scroll-copasmetal1',
@@ -81,18 +117,18 @@ include_once '../template/functions.php';
                               '../images/copas-aro-71.webp'
                           ],
                           'Copas Aro',
-                          'Copas Aro</br>Medidas: 1.60m x 1.60m '
+                          'Copas Aro</br>Medidas: 1.90m x 1.60m'
                         );
                         renderGalleryItem(
-                          'scroll-wall-shots',
+                          'scroll-backing3',
                           [
-                              '../images/wall-shots.webp',
-                              '../images/wall-de-shots-11.webp',
-                              '../images/wall-de-shots-12.webp'
+                              '../images/backing-tres-repisas-22.png',
+                              '../images/backing-3-repisas-89.webp'
                           ],
-                          'Wall de Shots',
-                          'Wall de Shots</br>Capacidad de 80 a 100 shots '
+                          'Backing 3',
+                          'Backing 3</br>Medidas: 2m x 1m '
                         );
+                        
                         renderGalleryItem(
                           'scroll-peg-wall',
                           [
@@ -101,18 +137,9 @@ include_once '../template/functions.php';
                               '../images/peg-wall-20.webp'
                           ],
                           'Peg Wall',
-                          'Peg Wall</br>Medidas: 2.30m x 2.44m'
+                          'Peg Wall</br>Medidas: 2.30m x 2.40m'
                         );
-                        renderGalleryItem(
-                          'scroll-torredecopas',
-                          [
-                              '../images/31 TORRE DE COPAS.png',
-                              '../images/torre-de-copas-9.png'
-                          ],
-                          'Torre de Copas',
-                          'Torre de Copas</br>Medidas: 2m x 1m',
-                          true
-                        );
+                        
                         renderGalleryItem(
                           'scroll-columpio',
                           [
@@ -121,7 +148,8 @@ include_once '../template/functions.php';
                               '../images/columpio-16.webp'
                           ],
                           'Columpio',
-                          'Columpio</br>Medidas: 2.30m x 2.20m '
+                          'Columpio</br>Medidas: 2.30m x 2.20m',
+                          true
                         );
                         renderGalleryItem(
                           'scroll-backingarco',

@@ -52,9 +52,11 @@
     <ul class="menu">
       <li <?php if($active_menu == 'inicio') echo 'class="active"' ?>><a href="/">INICIO</a></li>
       <li <?php if($active_menu == 'barras') echo 'class="active"' ?> ><a href="/barras/">BARRAS Y MESAS</a></li>
-      <li <?php if($active_menu == 'mesas-sillas-altas') echo 'class="active"' ?>><a href="/mesas-sillas-altas/">SILLAS ALTAS</a></li>
+      <li <?php if($active_menu == 'estructuras') echo 'class="active"' ?>><a href="/estructuras/">BACKDROPS & REPISAS</a></li>
       <li <?php if($active_menu == 'salas-lounge') echo 'class="active"' ?>><a href="/salas-lounge/">SALAS LOUNGE</a></li>
-      <li <?php if($active_menu == 'estructuras') echo 'class="active"' ?>><a href="/estructuras/">ESTRUCTURAS</a></li>
+      <li <?php if($active_menu == 'mesas-sillas-altas') echo 'class="active"' ?>><a href="/mesas-sillas-altas/">SILLAS ALTAS</a></li>
+      
+      
       <li <?php if($active_menu == 'whatsapp-link') echo 'class="active"' ?>><a name="whatsapp-link" target="_blank" href="#">CONTACTO</a></li>
     </ul>
   </section>

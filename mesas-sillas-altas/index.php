@@ -35,7 +35,7 @@ include_once '../template/functions.php';
                         renderGalleryItem(
                             'scroll-sillas-metal2',
                             [
-                                '../images/mesas-sillas-metalicas-58.webp',
+                                '../images/mesas-sillas-metalicas-101.webp',
                                 '../images/mesas-sillas-metalicas-79.webp',
                                 '../images/mesas-sillas-metalicas-78.webp'
                             ],
@@ -46,17 +46,15 @@ include_once '../template/functions.php';
                           'scroll-sillas-industrial',
                           [
                               '../images/sillas-mesa-industrial-93.png',
-                              '../images/mesa-industrial-6.webp',
                               '../images/mesa-sillas-industrial-87.webp'
                           ],
-                          'Mesa y Sillas industrial',
-                          'Sillas Industriales</br> 4 pers.'
+                          'Mesa y Bancos industriales',
+                          'Bancos Industriales</br> 4 pers.'
                         );
                         renderGalleryItem(
                           'scroll-sillas-boho',
                           [
                               '../images/mesa-sillas-boho-chic-64.png',
-                              '../images/sillas-mesa-boho-chic-61.png',
                               '../images/mesa-sillas-boho-chic-123.webp'
                           ],
                           'Mesa y Sillas industrial',
