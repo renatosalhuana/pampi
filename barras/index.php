@@ -129,10 +129,26 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;"> Mesa Canasta </br>
                   Medidas: 2.25m x 1.70m x .80m </p>
               </li>
+
               <li class="one_quarter">
+                <div class="scroll-container" id="scroll-barra-treillage">
+                  <img src="../images/barra-treillage-01.webp" alt="Barra Treillage">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-treillage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;"> Barra Treillage </br>
+                  Medidas: 2m</p>
+              </li>
+
+
+              
+
+              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-carritoroyal">
                   <!-- <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal"> -->
-                  <img src="../images/carrito-royal-72.png" alt="Carrito Royal">
+                  <img src="../images/carrito-royal-72.webp" alt="Carrito Royal">
                   <img src="../images/carrito-royal-6.webp" alt="Carrito Royal">
                 </div>
                 <div class="scroll-custom-dots">
@@ -144,10 +160,10 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Royal</br>
                   Medidas: 2m x 1.80cm x .80m </p>
               </li>
-              <li class="one_quarter first">
+              <li class="one_quarter ">
                 <div class="scroll-container" id="scroll-carritovintage">
                   <!-- <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage"> -->
-                  <img src="../images/carrito-vintage-01.png" alt="Carrito Vintage">
+                  <img src="../images/carrito-vintage-01.webp" alt="Carrito Vintage">
 
                   <img src="../images/carrito-vintage-1.webp" alt="Carrito Vintage">
                 </div>
