@@ -1,6 +1,10 @@
 <?php
 $active_menu = "estructuras";
 $title = "BACKDROPS & REPISAS";
+$metadescription = "Estructuras, backdrops y repisas únicas que elevarán tus celebraciones a otro nivel. Nuestras creaciones añadirán un toque mágico a cualquier fiesta.";
+$og_image_url = "https://pampimobiliario.com/images/backing-arco-9.webp";
+$og_url = "https://pampimobiliario.com/estructuras/";
+
 include_once '../template/header.php';
 include_once '../template/functions.php';
 ?>

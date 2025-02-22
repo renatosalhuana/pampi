@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="">
-
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJCVGND11N"></script>
@@ -28,6 +27,18 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="../webicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
+  <meta name="description" content="<?php echo $metadescription; ?>">
+
+  <meta property="og:title" content="<?php if($title != '') echo $title . ' - ' ; ?>PamPi Mobiliario" />
+  <meta property="og:description" content="<?php echo $metadescription; ?>" />
+  <meta property="og:image" content="<?php echo $og_image_url; ?>" />
+  <meta property="og:url" content="<?php echo $og_url; ?>"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="PamPi Mobiliario" />
+
+
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

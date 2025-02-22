@@ -1,6 +1,9 @@
 <?php
 $active_menu = "barras";
 $title = "BARRAS y MESAS";
+$metadescription = "Alquiler de barras y mesas para eventos en Lima Perú. Contamos con una variedad de barras y mesas modernas e ideales para todo tipo de celebraciones.";
+$og_image_url = "https://pampimobiliario.com/images/barra-jardinera.webp";
+$og_url = "https://pampimobiliario.com/barras/";
 
 include_once '../template/header.php';
 ?>

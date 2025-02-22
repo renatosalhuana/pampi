@@ -1,6 +1,10 @@
 <?php
 $active_menu = "salas-lounge";
 $title = "SALAS LOUNGE";
+$metadescription = "Alquiler de salas lounge para eventos en Lima. Deja a tus invitados boquiabiertos con nuestra colección de salas lounge de diseño vanguardista.";
+$og_image_url = "https://pampimobiliario.com/images/salas-lounge-puff-evento.webp";
+$og_url = "https://pampimobiliario.com/salas-lounge/";
+
 include_once '../template/header.php';
 include_once '../template/functions.php';
 ?>

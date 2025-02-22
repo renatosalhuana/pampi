@@ -1,6 +1,10 @@
 <?php
 $active_menu = "mesas-sillas-altas";
 $title = "MESAS & SILLAS ALTAS";
+$metadescription = "Alquiler de mesas y sillas altas para eventos en Lima. Añade un toque creativo y moderno a tu próximo evento con nuestras mesas y sillas altas de diseño.";
+$og_image_url = "https://pampimobiliario.com/images/mesas-sillas-metalicas-79.webp";
+$og_url = "https://pampimobiliario.com/mesas-sillas-altas/";
+
 include_once '../template/header.php';
 include_once '../template/functions.php';
 ?>
