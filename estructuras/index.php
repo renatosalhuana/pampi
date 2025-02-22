@@ -23,7 +23,7 @@ include_once '../template/functions.php';
             <ul class="nospace clear">
             <?php
                         renderGalleryItem(
-                          'scroll-jardinera-grande',
+                          'scroll-repisas-jardinera-grande',
                           [
                               '../images/repisas-jardinera-grande-82.png'
                           ],
@@ -40,7 +40,7 @@ include_once '../template/functions.php';
                           'Repisas Espejo</br>Medidas: 2.30m x 2.40m'
                         );
                         renderGalleryItem(
-                          'scroll-jardinera-peque',
+                          'scroll-repisas-jardinera-peque',
                           [
                               '../images/repisas-jardinera-peque-01.png'
                           ],
@@ -156,7 +156,7 @@ include_once '../template/functions.php';
                           [
                               '../images/backing-arco-1.png',
                               '../images/backing-arco-9.webp',
-                              '../images/backing-arco-9.webp',
+                              '../images/backing-arco-11.webp',
                               '../images/backing-arco-18.webp'
                           ],
                           'Backing Arco',
