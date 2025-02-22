@@ -33,7 +33,7 @@
   <meta property="og:title" content="<?php if($title != '') echo $title . ' - ' ; ?>PamPi Mobiliario" />
   <meta property="og:description" content="<?php echo $metadescription; ?>" />
   <meta property="og:image" content="<?php echo $og_image_url; ?>" />
-  <meta property="og:url" content="<?php echo $og_url; ?>"/>
+  <meta property="og:url" content="<?php if($og_url) echo $og_url; ?>"/>
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_ES" />
   <meta property="og:site_name" content="PamPi Mobiliario" />

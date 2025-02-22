@@ -3,7 +3,7 @@ $active_menu = "inicio";
 $title = '';
 $metadescription = "Alquiler de mobiliario para eventos en Lima Perú. Contamos con barras, estructuras, salas lounge, mesas y sillas altas.";
 $og_image_url = "https://pampimobiliario.com/images/barra-jardinera.webp";
-
+$og_url = "https://pampimobiliario.com/";
 include_once 'template/header.php';
 ?>
 
