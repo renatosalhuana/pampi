@@ -81,7 +81,7 @@ include_once 'template/header.php';
         style="background-image:url('images/jardinera-grande-bg.webp'); font-family: Miracle; font-size: 18px;">
         <div class="hoc container testimonials clear">
           <!-- ################################################################################################ -->
-          <article><img src="images/PP.PNG" alt="">
+          <article><img src="images/PP.webp" alt="Pame y Pieri">
             <blockquote>¡Bienvenidos a PamPi Mobiliario! Somos una empresa dedicada al alquiler del mobiliario más
               trendy
               para que tu boda o evento sea inolvidable. Nos enorgullecemos de ofrecer productos excepcionales,

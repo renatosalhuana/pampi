@@ -82,7 +82,7 @@ include_once '../template/functions.php';
                             'scroll-ventanal',
                             [
                                 '../images/ventanales-1.png',
-                                '../images/ventanales-804.png'
+                                '../images/ventanales-804.webp'
                             ],
                             'Ventanal',
                             'Ventanal</br>Medidas: 2.05m x 1.10m'

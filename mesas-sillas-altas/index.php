@@ -55,7 +55,8 @@ include_once '../template/functions.php';
                           'scroll-sillas-boho',
                           [
                               '../images/mesa-sillas-boho-chic-64.png',
-                              '../images/mesa-sillas-boho-chic-123.webp'
+                              '../images/sillas-boho-chic-101.webp',
+                              '../images/sillas-boho-chic-102.webp'
                           ],
                           'Mesa y Sillas industrial',
                           'Sillas Boho Chic</br> 4 pers.'
