@@ -100,6 +100,19 @@ include_once '../template/header.php';
               </li>
               
               <li class="one_quarter">
+                <div class="scroll-container" id="scroll-barra-treillage">
+                  <img src="../images/barra-treillage-01.webp" alt="Barra Treillage">
+                </div>
+                <div class="scroll-custom-dots">
+                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-treillage')">
+                  </a>
+                </div>
+                <p style="font-family: butler; text-align: center; font-size: 15px;"> Barra Treillage </br>
+                  Medidas: 2m</p>
+              </li>
+
+
+              <li class="one_quarter">
                 <div class="scroll-container" id="scroll-barra-medialuna">
                   <img src="../images/3BARRA MEDIA LUNA.webp" alt="Barra Media Luna">
                   <img src="../images/barra-media-luna-matrimonio-1.webp" alt="Barra Media Luna">
@@ -133,18 +146,7 @@ include_once '../template/header.php';
                   Medidas: 2.25m x 1.70m x .80m </p>
               </li>
 
-              <li class="one_quarter">
-                <div class="scroll-container" id="scroll-barra-treillage">
-                  <img src="../images/barra-treillage-01.webp" alt="Barra Treillage">
-                </div>
-                <div class="scroll-custom-dots">
-                  <a class="dot-button-scroller active" href="javascript:moveLeft('scroll-barra-treillage')">
-                  </a>
-                </div>
-                <p style="font-family: butler; text-align: center; font-size: 15px;"> Barra Treillage </br>
-                  Medidas: 2m</p>
-              </li>
-
+              
 
               
 
