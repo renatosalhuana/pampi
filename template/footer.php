@@ -3,7 +3,7 @@
       <!-- ################################################################################################ -->
       <h3 class="heading" style="font-family: Sephir; font-size: 35px;">Don't Settle for Boring!</h3>
       <p style="font-family: Miracle;">Nuestro catálogo está en constante crecimiento<br></br> ¡En PamPi no paramos de diseñar!</p>
-      <footer><a class="btn" href="https://heyzine.com/flip-book/cd3af31497.html" target="_blank">Mira nuestro catálogo</a>
+      <footer><a class="btn" href="/catalogo/" target="_blank">Mira nuestro catálogo</a>
       </footer>
       <!-- ################################################################################################ -->
     </article>
