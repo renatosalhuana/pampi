@@ -84,7 +84,7 @@ include_once '../template/header.php';
                   Medidas: 2m   </p>
               </li>
               
-              <li class="one_quarter first">
+              <!-- <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-barra-marcos">
                   <img src="../images/6BARRA MARCOS.webp" alt="Barra Marcos">
                   <img src="../images/barra marcos inspo.webp" alt="Barra Marcos">
@@ -97,9 +97,9 @@ include_once '../template/header.php';
                 </div>
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Barra Marcos </br>
                   Medidas: 2m / 4m   </p>
-              </li>
+              </li> -->
               
-              <li class="one_quarter">
+              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-barra-treillage">
                   <img src="../images/barra-treillage-01.webp" alt="Barra Treillage">
                 </div>
@@ -150,7 +150,7 @@ include_once '../template/header.php';
 
               
 
-              <li class="one_quarter first">
+              <li class="one_quarter">
                 <div class="scroll-container" id="scroll-carritoroyal">
                   <!-- <img src="../images/37 CARRITO ROYAL.png" alt="Carrito Royal"> -->
                   <img src="../images/carrito-royal-72.webp" alt="Carrito Royal">
@@ -165,7 +165,7 @@ include_once '../template/header.php';
                 <p style="font-family: butler; text-align: center; font-size: 15px;">Carrito Royal</br>
                   Medidas: 2m x 1.80cm x .80m </p>
               </li>
-              <li class="one_quarter ">
+              <li class="one_quarter first">
                 <div class="scroll-container" id="scroll-carritovintage">
                   <!-- <img src="../images/36 CARRITO VINTAGE.png" alt="Carrito Vintage"> -->
                   <img src="../images/carrito-vintage-01.webp" alt="Carrito Vintage">
