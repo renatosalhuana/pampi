@@ -12,6 +12,6 @@ header('Expires: Thu, 1 Jan 2000 00:00:00 GMT');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Cache-Control: post-check=0, pre-check=0',false);
 header('Pragma: no-cache');
-header("Location: https://heyzine.com/flip-book/3f81c13a92.html", true, 301);
+header("Location: https://heyzine.com/flip-book/cec10b6455.html", true, 301);
 exit();
 ?>
